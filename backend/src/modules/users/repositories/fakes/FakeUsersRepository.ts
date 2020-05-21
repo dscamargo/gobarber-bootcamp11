@@ -1,12 +1,10 @@
-import { getRepository, Repository } from 'typeorm';
-
 import User from '@modules/users/infra/typeorm/entities/User';
 
 import IUsersRepositoryInterface from '@modules/users/repositories/IUserRepository';
 import ICreateUserDTO from '@modules/users/dtos/ICreateUserDTO';
 import { uuid } from 'uuidv4';
 
-class AppointmentsRepository implements IUsersRepositoryInterface {
+class FakeUsersRepository implements IUsersRepositoryInterface {
   private users: User[] = [];
 
   public async findById(id: string): Promise<User | undefined> {
@@ -43,4 +41,4 @@ class AppointmentsRepository implements IUsersRepositoryInterface {
   }
 }
 
-export default AppointmentsRepository;
+export default FakeUsersRepository;

@@ -7,9 +7,9 @@
 
 
 <p align="center" >
-  <a href="#barber-o-projeto"> :fire: O Projeto</a> |
+  <a href="#fire-o-projeto"> :fire: O Projeto</a> |
   <a href="#rocket-tecnologias-usadas"> :rocket: Tecnologias Usadas</a> |
-  <a href="#"> :hammer: Deploy da Aplicação (Em Breve) </a> |
+  <a href="#hammer-deploy"> :hammer: Deploy (Em Breve) </a> |
   <a href="#zap-executando-o-projeto"> :zap: Executando o Projeto </a> 
 </p>
 
@@ -18,7 +18,7 @@
 ### Rodando no Postman
 [![Run in Postman](https://s3.amazonaws.com/postman-static/run-button.png)](https://app.getpostman.com/run-collection/e7a628aca2ae18361226)
 
-## :barber: O projeto
+## :fire: O projeto
 
 Aplicação para agendar e gerenciar serviços de beleza, onde prestadores de serviços podem se cadastrar,
 e usuários poderão marcar agendamentos com estes provedores.
@@ -35,6 +35,9 @@ O projeto foi feito com as seguintes tecnologias:
 - [React Native](https://reactnative.dev/)
 - [Styled Components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
+
+### :hammer: Deploy
+- Em Breve
 
 ## :zap: Executando o Projeto
 #### Clonando o projeto

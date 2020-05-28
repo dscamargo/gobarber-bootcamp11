@@ -10,7 +10,9 @@
   <a href="#fire-o-projeto"> :fire: O Projeto</a> |
   <a href="#rocket-tecnologias-usadas"> :rocket: Tecnologias Usadas</a> |
   <a href="#hammer-deploy"> :hammer: Deploy (Em Breve) </a> |
-  <a href="#zap-executando-o-projeto"> :zap: Executando o Projeto </a> 
+  <a href="#zap-executando-o-projeto"> :zap: Executando o Projeto </a> |
+  <a href="#thinking-como-contribuir"> :thinking: Como contribuir </a> |
+  <a href="##memo-licença"> :memo: Licença </a> 
 </p>
 
 </div>
@@ -85,7 +87,7 @@ yarn && yarn android
 yarn && yarn ios
 ```
 
-## 🤔 Como contribuir
+## :thinking: Como contribuir
 
 Se quiser contribuir para esse repositório aqui, seja corrigindo algum problema, adicionando comentários ou melhorando a documentação, você pode seguir esse tutorial abaixo:
 

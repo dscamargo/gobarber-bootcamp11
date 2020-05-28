@@ -12,7 +12,7 @@
   <a href="#hammer-deploy"> :hammer: Deploy (Em Breve) </a> |
   <a href="#zap-executando-o-projeto"> :zap: Executando o Projeto </a> |
   <a href="#thinking-como-contribuir"> :thinking: Como contribuir </a> |
-  <a href="##memo-licença"> :memo: Licença </a> 
+  <a href="#memo-licença"> :memo: Licença </a> 
 </p>
 
 </div>

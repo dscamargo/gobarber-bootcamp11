@@ -36,7 +36,7 @@ O projeto foi feito com as seguintes tecnologias:
 - [Styled Components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
 
-### :hammer: Deploy
+## :hammer: Deploy
 - Em Breve
 
 ## :zap: Executando o Projeto

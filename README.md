@@ -50,11 +50,8 @@ $ cd gobarber
 #Entre na pasta da api
 cd backend
 
-# Inicie a instância do banco de dados no docker, utilizando o comando:
-docker run --name pg -p 5432:5432 -d postgres
-
-# Em seguida, instale as dependencias, rode as migrations e inicie o servidor de desenvolvimento, utilizando o comando: 
-$ yarn && yarn typeorm migration:run && yarn dev:server
+# Para rodar o servidor de desenvolvimento, com o docker e o docker-compose instalado na sua máquina, rode o comando:
+docker-compose up -d
 ```
 <!-- #### Iniciando o Frontend
 ```sh

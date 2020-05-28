@@ -7,7 +7,7 @@
 
 
 <p align="center" >
-  <a href="#fire-o-projeto"> :fire: O Projeto</a> |
+  <a href="#barber-o-projeto"> :fire: O Projeto</a> |
   <a href="#rocket-tecnologias-usadas"> :rocket: Tecnologias Usadas</a> |
   <a href="#"> :hammer: Deploy da Aplicação (Em Breve) </a> |
   <a href="#zap-executando-o-projeto"> :zap: Executando o Projeto </a> 
@@ -31,6 +31,7 @@ O projeto foi feito com as seguintes tecnologias:
 - [ExpressJS](https://expressjs.com/pt-br/)
 - [JWT](https://jwt.io/)
 - [ReactJS](https://pt-br.reactjs.org/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [React Native](https://reactnative.dev/)
 - [Styled Components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)

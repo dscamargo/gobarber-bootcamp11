@@ -32,6 +32,7 @@ O projeto foi feito com as seguintes tecnologias:
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/pt-br/)
 - [JWT](https://jwt.io/)
+- [DateFNS](https://date-fns.org/)
 - [ReactJS](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Native](https://reactnative.dev/)
@@ -55,16 +56,6 @@ cd backend
 # Para rodar o servidor de desenvolvimento, com o docker e o docker-compose instalado na sua máquina, rode o comando:
 docker-compose up -d
 ```
-<!-- #### Iniciando o Frontend
-```sh
-$ cd web
-$ yarn && yarn start
-```
-#### Iniciando o Mobile(Android)
-```sh
-$ cd mobile
-$ yarn && yarn android && yarn start
-``` -->
 
 #### Iniciando o frontend
 ```sh

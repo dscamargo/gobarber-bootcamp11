@@ -11,7 +11,7 @@ services:
     volumes:
       - ".:/app"
 
-  database:
+  pg_database:
     image: postgres
     environment:
       POSTGRES_USER: postgres
@@ -19,4 +19,5 @@ services:
       POSTGRES_DB: gobarber
     ports:
       - "5432:5432"
-    container_name: gobarber-db
+    container_name: gobarber-pg
+

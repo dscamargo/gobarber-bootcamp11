@@ -9,7 +9,7 @@ interface IRequest {
   avatar_filename: string;
 }
 
-injectable();
+@injectable()
 class UpdateUserAvatarService {
   constructor(
     @inject('UsersRepository')

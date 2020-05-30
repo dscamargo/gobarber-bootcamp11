@@ -12,7 +12,7 @@ interface IRequest {
   password: string;
 }
 
-injectable();
+@injectable()
 class ResetPasswordService {
   constructor(
     @inject('UsersRepository')
@@ -21,7 +21,7 @@ class ResetPasswordService {
     @inject('MailProvider')
     private mailProvider: IMailProvider,
 
-    @inject('IUserTokensRepository')
+    @inject('UserTokensRepository')
     private userTokensRepository: IUserTokensRepository,
 
     @inject('HashProvider')

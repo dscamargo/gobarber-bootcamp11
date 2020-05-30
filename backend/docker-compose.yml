@@ -8,6 +8,9 @@ services:
       - "3333:3333"
     command: sh -c "yarn && yarn typeorm migration:run && yarn dev:server"
     working_dir: /app
+    depends_on:
+      - pg_database
+      - mongo_database
     volumes:
       - ".:/app"
 

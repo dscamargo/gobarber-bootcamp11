@@ -21,3 +21,9 @@ services:
       - "5432:5432"
     container_name: gobarber-pg
 
+  mongo_database:
+    image: mongo
+    ports:
+      - "27017:27017"
+    container_name: gobarber-mongo
+

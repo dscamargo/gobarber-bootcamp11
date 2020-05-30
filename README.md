@@ -31,6 +31,8 @@ O projeto foi feito com as seguintes tecnologias:
 
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/pt-br/)
+- [Postgres](https://www.postgresql.org/)
+- [MongoDB](https://www.mongodb.com/)
 - [JWT](https://jwt.io/)
 - [DateFNS](https://date-fns.org/)
 - [ReactJS](https://pt-br.reactjs.org/)

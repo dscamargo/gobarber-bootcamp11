@@ -12,8 +12,8 @@ export default {
   driver: process.env.MAIL_DRIVER || 'ethereal',
   default: {
     from: {
-      email: '',
-      name: '',
+      email: 'douglas@dscamargo.dev',
+      name: 'Douglas',
     },
   },
 } as IMailConfig;

@@ -29,12 +29,22 @@ e usuários poderão marcar agendamentos com estes provedores.
 
 O projeto foi feito com as seguintes tecnologias:
 
+
+# Backend
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/pt-br/)
+- [AmazonSES](https://aws.amazon.com/pt/ses/)
+- [AmazonS3](https://aws.amazon.com/pt/s3/)
+- [Mime](https://www.npmjs.com/package/mime)
 - [Postgres](https://www.postgresql.org/)
 - [MongoDB](https://www.mongodb.com/)
+- [Redis](https://redis.io/)
+- [IORedis](https://github.com/luin/ioredis)
 - [JWT](https://jwt.io/)
 - [DateFNS](https://date-fns.org/)
+- [Typescript](https://www.typescriptlang.org/)
+
+# Frontend e Mobile
 - [ReactJS](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Native](https://reactnative.dev/)

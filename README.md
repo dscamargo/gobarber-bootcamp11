@@ -25,12 +25,12 @@
 Aplicação para agendar e gerenciar serviços de beleza, onde prestadores de serviços podem se cadastrar,
 e usuários poderão marcar agendamentos com estes provedores.
 
-### :rocket: Tecnologias Usadas
+## :rocket: Tecnologias Usadas
 
 O projeto foi feito com as seguintes tecnologias:
 
 
-# Backend
+### Backend
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/pt-br/)
 - [AmazonSES](https://aws.amazon.com/pt/ses/)
@@ -44,7 +44,7 @@ O projeto foi feito com as seguintes tecnologias:
 - [DateFNS](https://date-fns.org/)
 - [Typescript](https://www.typescriptlang.org/)
 
-# Frontend e Mobile
+### Frontend e Mobile
 - [ReactJS](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React Native](https://reactnative.dev/)

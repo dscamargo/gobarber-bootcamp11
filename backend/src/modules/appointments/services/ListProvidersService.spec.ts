@@ -1,16 +1,20 @@
-import AppError from '@shared/errors/AppError';
-
 import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
+import FakeCacheProvider from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
 import ListAllProvidersService from './ListProvidersService';
 
 let fakeUsersRepository: FakeUsersRepository;
 let listAllProviders: ListAllProvidersService;
+let fakeCacheProvider: FakeCacheProvider;
 
 describe('UpdateUserAvatarService', () => {
   beforeEach(() => {
     fakeUsersRepository = new FakeUsersRepository();
+    fakeCacheProvider = new FakeCacheProvider();
 
-    listAllProviders = new ListAllProvidersService(fakeUsersRepository);
+    listAllProviders = new ListAllProvidersService(
+      fakeUsersRepository,
+      fakeCacheProvider,
+    );
   });
   it('should be able to show the profile', async () => {
     const userOne = await fakeUsersRepository.create({

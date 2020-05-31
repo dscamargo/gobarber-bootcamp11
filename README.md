@@ -46,8 +46,8 @@ O projeto foi feito com as seguintes tecnologias:
 
 ### Frontend e Mobile
 - [ReactJS](https://pt-br.reactjs.org/)
-- [React Icons](https://react-icons.github.io/react-icons/)
 - [React Native](https://reactnative.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [Styled Components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
 

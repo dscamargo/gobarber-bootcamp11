@@ -42,6 +42,7 @@ O projeto foi feito com as seguintes tecnologias:
 - [IORedis](https://github.com/luin/ioredis)
 - [JWT](https://jwt.io/)
 - [DateFNS](https://date-fns.org/)
+- [Rate Limit Flexible](https://github.com/animir/node-rate-limiter-flexible)
 - [Typescript](https://www.typescriptlang.org/)
 
 ### Frontend e Mobile

@@ -1,9 +1,8 @@
 <div align="center" style="margin: 20px;">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
-![GitHub last commit](https://img.shields.io/github/last-commit/dscamargo/gobarber-bootcamp11?color=blue&style=flat-square)
-<!-- [![Codacy Badge](https://app.codacy.com/project/badge/Grade/30e0ef7a3c2146498723e53c9fcaeda7)](https://www.codacy.com/manual/jvictorfarias/GoBarber_2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jvictorfarias/GoBarber&amp;utm_campaign=Badge_Grade) -->
-![GitHub top language](https://img.shields.io/github/languages/top/dscamargo/gobarber-bootcamp11?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/dscamargo/gobarber?color=blue&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/dscamargo/gobarber?style=flat-square)
 
 
 <p align="center" >
@@ -58,7 +57,7 @@ O projeto foi feito com as seguintes tecnologias:
 ## :zap: Executando o Projeto
 #### Clonando o projeto
 ```sh
-$ git clone https://github.com/dscamargo/gobarber-bootcamp11.git gobarber
+$ git clone https://github.com/dscamargo/gobarber.git gobarber
 $ cd gobarber
 ```
 #### Iniciando a API

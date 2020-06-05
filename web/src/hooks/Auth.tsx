@@ -6,12 +6,14 @@ interface User {
   avatar_url: string;
   id: string;
   name: string;
+  email: string;
 }
 
 interface AuthContextInterface {
   user: User;
   signIn({ email, password }: SignInInterface): Promise<void>;
   signOut(): void;
+  updateUser(data: User): void;
 }
 
 interface SignInInterface {
@@ -34,6 +36,7 @@ const AuthProvider: React.FC = ({ children }) => {
     const token = localStorage.getItem('@GoBarber:token');
 
     if (user && token) {
+      api.defaults.headers.authorization = `Bearer ${token}`;
       return {
         token,
         user: JSON.parse(user),
@@ -49,6 +52,9 @@ const AuthProvider: React.FC = ({ children }) => {
 
     localStorage.setItem('@GoBarber:token', token);
     localStorage.setItem('@GoBarber:user', JSON.stringify(user));
+
+    api.defaults.headers.authorization = `Bearer ${token}`;
+
     setData({ token, user });
   }, []);
 
@@ -58,8 +64,21 @@ const AuthProvider: React.FC = ({ children }) => {
     setData({} as AuthState);
   }, []);
 
+  const updateUser = useCallback(
+    (updatedData: User) => {
+      setData({
+        token: data.token,
+        user: updatedData,
+      });
+      localStorage.setItem('@GoBarber:user', JSON.stringify(updatedData));
+    },
+    [data.token],
+  );
+
   return (
-    <AuthContext.Provider value={{ user: data.user, signIn, signOut }}>
+    <AuthContext.Provider
+      value={{ user: data.user, signIn, signOut, updateUser }}
+    >
       {children}
     </AuthContext.Provider>
   );
